@@ -1,0 +1,23 @@
+{
+    "name": "itsoluciones/laminasauthdynamoadapter",
+    "type": "library",
+    "description": "Laminas Auth Adapter with DynamoDB",
+    "keywords": ["Laminas","Auth","Adapter"],
+    "homepage": "https://github.com/ITSoluciones/LaminasAuthDynamoAdapter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Renato Canales",
+            "email": "renato@itsoluciones.cl",
+            "homepage": "http://www.itsoluciones.cl",
+            "role": "Owner"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "aws/aws-sdk-php": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {"ITSoluciones\\": "src"}
+    }
+}
